@@ -1,0 +1,66 @@
+:root {
+    --primaria: #6855E8;
+    --secundaria: #649CDF;
+    --texto-primaria: #FAF7F7;
+    --texto-secundaria: #D1FDAE;
+
+    --verde: #74c070;
+    --vermelho: #f44336;
+    --laranja: #f1b038;
+    --neutro: #b8b9a6;
+    --fundo: #e3dbdb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+iframe {
+    border: none;
+}
+
+#menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+#content {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.card {
+    background-color: var(--texto-primaria);
+    color: var(--texto-terciaria);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+}
+
+.card .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card .subtitle {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.card .content {
+    font-size: 1em;
+}

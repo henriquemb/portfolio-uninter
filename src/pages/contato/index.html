@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../../css/tema.css">
+        <link rel="stylesheet" href="./index.css">
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <div class="card contact">
+            <div class="title">
+                <p>Contato</p>
+            </div>
+            <div class="content">
+                <form id="contact-form" onsubmit="return sendForm()">
+                    <div class="contact-item">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" autocomplete="off">
+                    </div>
+                    <div class="contact-item">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" autocomplete="off">
+                    </div>
+                    <div class="contact-item">
+                        <label for="msg">Mensagem</label>
+                        <input type="text" name="msg" id="msg" autocomplete="off">
+                    </div>
+                    <div id="contact-submit">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

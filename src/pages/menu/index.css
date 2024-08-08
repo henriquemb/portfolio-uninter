@@ -1,0 +1,31 @@
+#menu {
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--primaria);
+    color: var(--texto-primaria);
+    font-size: 1em;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+    margin: 0 10px;
+    padding: 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#menu li:hover {
+    text-shadow: 0 3px 10px rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+
+#menu li[active] {
+    color: var(--texto-secundaria);
+    font-weight: bold;
+}

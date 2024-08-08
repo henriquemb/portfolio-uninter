@@ -1,0 +1,11 @@
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--primaria);
+    color: var(--texto-primaria);
+    font-size: 0.8em;
+    min-height: 60px;
+    padding: 0px 10px;
+    width: 100%;
+}
