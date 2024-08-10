@@ -1,0 +1,12 @@
+.content ul {
+    margin: 10px;
+    padding: 0;
+}
+
+.content ul li {
+    margin: 10px;
+}
+
+.content a {
+    text-decoration: none;
+}

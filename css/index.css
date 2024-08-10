@@ -1,3 +1,6 @@
+/*
+* Define cor de fundo
+*/
 body {
     background-color: var(--fundo);
 }

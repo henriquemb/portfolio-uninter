@@ -1,11 +1,23 @@
 #footer {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: var(--primaria);
     color: var(--texto-primaria);
     font-size: 0.8em;
-    min-height: 60px;
-    padding: 0px 10px;
     width: 100%;
+}
+
+#footer ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer ul li {
+    margin: 5px;
+}
+
+#footer img {
+    width: 24px;
+    height: 24px;
 }

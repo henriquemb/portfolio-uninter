@@ -1,3 +1,6 @@
+/*
+* Define as cores do site
+*/
 :root {
     --primaria: #6855E8;
     --secundaria: #649CDF;
@@ -11,34 +14,51 @@
     --fundo: #e3dbdb;
 }
 
+/*
+* Remove espaçamento da tela
+*/
 * {
     margin: 0;
     padding: 0;
-    font-family: Helvetica, Arial, sans-serif
+    font-family: Helvetica, Arial, sans-serif;
 }
 
+/*
+* Remove a borda do iframe
+*/
 iframe {
     border: none;
 }
 
+/*
+* Posicionamento do menu
+*/
 #menu {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1;
 }
 
+/*
+* Posicionamento do corpo da tela
+*/
 #content {
     position: absolute;
     top: 50px;
     width: 100%;
 }
 
+/*
+* Posicionamento do rodapé
+*/
 #footer {
     position: fixed;
     bottom: 0;
 }
 
+/*
+* Estilização dos cards de conteúdo
+*/
 .card {
     background-color: var(--texto-primaria);
     color: var(--texto-terciaria);
